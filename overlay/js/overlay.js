@@ -14,6 +14,12 @@ $(document).ready(function () {
             .appendTo("#parse-tabs");
     });
     
+    if (pSettings.current.config.general.useDarkTheme) {
+        document.getElementById("stylesheet").setAttribute('href', 'css/style-black.css')
+    } else {
+        document.getElementById("stylesheet").setAttribute('href', 'css/style.css')
+    }
+
     if (pSettings.current.config.general.showDetailedHeader) $("body").addClass("detailed-header");
     if (pSettings.current.config.general.roleBasedColors) $("body").addClass("role-colors");
     if (!pSettings.current.config.stream.enable) $(".stream-mode").hide();

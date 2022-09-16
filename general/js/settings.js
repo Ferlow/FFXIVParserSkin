@@ -111,7 +111,8 @@ var ParserDefaultSettings = {
                 enable: false,
                 self: false
             },
-            roleBasedColors: false
+            roleBasedColors: false,
+            useDarkTheme: false,
         },
         stream: {
             enable: false,
