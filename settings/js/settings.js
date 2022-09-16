@@ -2,10 +2,8 @@ var debugClick = 0;
 
 $(document).ready(function () {
     pSettings.load();
-    
-
-
     if (pSettings.current.config.general.showDetailedHeader) $("[data-setting='use-detailed-header']").addClass("active");
+
     if (pSettings.current.config.general.useDarkTheme) {
         $("[data-setting='use-dark-theme']").addClass("active");
         document.getElementById("stylesheet").setAttribute('href', 'css/style-black.css')
