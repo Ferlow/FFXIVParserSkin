@@ -3,7 +3,16 @@ var debugClick = 0;
 $(document).ready(function () {
     pSettings.load();
     
+
+
     if (pSettings.current.config.general.showDetailedHeader) $("[data-setting='use-detailed-header']").addClass("active");
+    if (pSettings.current.config.general.useDarkTheme) {
+        $("[data-setting='use-dark-theme']").addClass("active");
+        document.getElementById("stylesheet").setAttribute('href', 'css/style-black.css')
+    } else {
+        document.getElementById("stylesheet").setAttribute('href', 'css/style.css')
+    }
+
     if (pSettings.current.config.general.reducedBarSize.enable) $("[data-setting='use-reduced-bar-size']").addClass("active");
     else $("[data-setting='use-reduced-bar-size-always']").addClass("disabled")
     $("[data-setting='use-reduced-bar-size'] input").val(pSettings.current.config.general.reducedBarSize.maxEntries);
@@ -77,6 +86,10 @@ $("[data-setting]").on("click", function (e) {
     switch (obj.attr("data-setting")) {
         case "use-detailed-header":
             pSettings.current.config.general.showDetailedHeader = !pSettings.current.config.general.showDetailedHeader;
+            $("#apply-settings").removeClass("disabled");
+            break;
+        case "use-dark-theme":
+            pSettings.current.config.general.useDarkTheme = !pSettings.current.config.general.useDarkTheme;
             $("#apply-settings").removeClass("disabled");
             break;
         case "use-reduced-bar-size":
