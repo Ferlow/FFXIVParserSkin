@@ -106,7 +106,7 @@ small {
 }
 
 #combatantTableBody>tr>td {
-	padding: 0;
+	padding: 2;
 	height: 30px;
 }
 
@@ -317,8 +317,9 @@ small {
 	text-align: left;
 	font-size: 12px;
 	line-height: 12px;
+	padding-left: 10px;
 	color: #ded7be;
-	text-shadow: -1px 0 2px #685d35, 0 1px 2px #685d35, 1px 0 2px #685d35, 0 -1px 2px #685d35;
+	text-shadow: -1px 0 3px #685d35, 0 1px 3px #685d35, 1px 0 3px #685d35, 0 -1px 3px #685d35;
 }
 
 .info-table td:nth-child(2) {
