@@ -2,16 +2,26 @@ function pushToDiscord() {
     if (pSettings.current.config.discord.webhook == "") return;
     if (lastData == null) return;
 
-    $.ajax({
-        url: pSettings.current.config.discord.webhook,
-        type: "POST",
-        contentType: 'multipart/form-data',
-        data: JSON.stringify({
-            "username": "FFXIV Parse",
-            "avatar_url": "https://ihellmasker.github.io/FFXIVParserSkin/general/icons/webhook.png",
-            "content": "```MD\n" + buildDiscordString() + "\n```"
-        })
-    });
+    const request = new XMLHttpRequest();
+    request.open("POST", pSettings.current.config.discord.webhook);
+    request.setRequestHeader('Content-type', 'application/json');
+    const params = {
+        username: "FFXIV Parser",
+        avatar_url: "https://ferlow.github.io/FFXIVParserSkin/general/icons/webhook.png",
+        content:null,
+        embeds:[{
+            title:"test",
+            description:"```MD\n" + buildDiscordString() + "\n```",
+            color:null,
+            author:{
+                name:"FFXIV Parser Skin",
+                url:"https://github.com/Ferlow/FFXIVParserSkin",
+                icon_url:"https://ferlow.github.io/FFXIVParserSkin/general/icons/webhook.png"
+            }
+        }],
+        attachments:[]
+    }
+    request.send(JSON.stringify(params));
 }
 
 function buildDiscordString() {

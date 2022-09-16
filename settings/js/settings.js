@@ -2,7 +2,7 @@ var debugClick = 0;
 
 $(document).ready(function () {
     pSettings.load();
-    
+
 
 
     if (pSettings.current.config.general.showDetailedHeader) $("[data-setting='use-detailed-header']").addClass("active");
@@ -296,7 +296,7 @@ $("#test-webhook").on("click", function (e) {
         $("#test-webhook").text("Failed");
         return;
     }
-    if (url.indexOf("discordapp.com/api/webhooks/") == -1) {
+    if (url.indexOf("discord.com/api/webhooks/") == -1) {
         $("#test-webhook").text("Failed");
         return;
     }
