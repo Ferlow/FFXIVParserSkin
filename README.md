@@ -2,13 +2,13 @@
 
 # 6.X+ is now supported!
 
-# Ihm's FFXIV Parser Skin
+# Ihm's FFXIV Parser Skin V 2.0-dev
+This is a skin to use with the Advanced Combat Tracker OverlayPlugin.
 
-This is a skin for use with the Advanced Combat Tracker OverlayPlugin.
+It offers two designs:
 
-## [Alternative, Black Version](https://github.com/Ferlow/black_FFXIVParserSkin)
-Both versions will soon be merged and will support adhoc skin swapping.
-
+* FF XIV UI like:
+* FF XIV Material Black, based on [Skotlex's Material UI](https://github.com/skotlex/ffxiv-material-ui)
 
 ### Important - [Tested with OverlayPlugin 0.19.4 from the ACT Plugin Browser](https://github.com/OverlayPlugin/OverlayPlugin/releases/tag/v0.19.4)
 * Other versions are not supported and might cause issues.
@@ -18,8 +18,9 @@ Both versions will soon be merged and will support adhoc skin swapping.
 
 * Optimisations [Version 1.5+]
 * Fakedata cleanup [Version 1.5+]
-* Multi-skin (FF XIV-like) [Version 2]
-* How-To and screenshot update [Version 2]
+* Multi-skin (FF XIV-like) [Version 2-dev+]
+* How-To and screenshot update [Version 2-alpha+]
+* Fix Discord Webhooks [Version 2-alpha+]
 * Custom CSS and skinning options [Version 3+]
 * Possible FF Logs integrations / character lookups / at least a linking feature [Version 3+]
 
@@ -39,7 +40,6 @@ If you really want to, you can download a copy of the layout completely or clone
 
 ## Features
 
-![Parser skin screenshot](http://pub.andysthings.com/parser/parser.png)
 
 * Tabs for different configurations (DPS, Healing, Tanking)
 * Auto resizing of bars for larger parses
@@ -47,15 +47,8 @@ If you really want to, you can download a copy of the layout completely or clone
 * Auto-hiding parser for when you're not fighting
 * Role and job colours available for bars
 * Override player names with job names
-* Post parse to Discord with customisable outputs and auto-posting
-
----
-
-## Configuration
-
-Fully integrated configuration allows you to configure the overlay without editing anything externally.
-
-![Parser config](http://pub.andysthings.com/parser/settings-general.png)
+* Post parse to Discord with customisable outputs and auto-posting (Webhooks are currently broken)
+* Fully integrated configuration allows you to configure the overlay without editing anything externally.
 
 ---
 
