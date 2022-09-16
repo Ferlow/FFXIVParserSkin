@@ -16,11 +16,12 @@ It offers two designs:
 
 ## Roadmap
 
+* Readme Cleanup [Version 1.5+]
 * Optimisations [Version 1.5+]
 * Fakedata cleanup [Version 1.5+]
-* Multi-skin (FF XIV-like) [Version 2-dev+]
+* Multi-skin improvements [Version 2-alpha+]
 * How-To and screenshot update [Version 2-alpha+]
-* Fix Discord Webhooks [Version 2-alpha+]
+* Improve Discord Webhooks [Version 2-alpha+]
 * Custom CSS and skinning options [Version 3+]
 * Possible FF Logs integrations / character lookups / at least a linking feature [Version 3+]
 
@@ -39,8 +40,7 @@ If you really want to, you can download a copy of the layout completely or clone
 ---
 
 ## Features
-
-
+* Multiple Skins
 * Tabs for different configurations (DPS, Healing, Tanking)
 * Auto resizing of bars for larger parses
 * Configurable layout
@@ -51,20 +51,16 @@ If you really want to, you can download a copy of the layout completely or clone
 * Fully integrated configuration allows you to configure the overlay without editing anything externally.
 
 ---
-
 ## Help
 If you have any problems please create a [new issue ticket](https://github.com/Ferlow/FFXIVParserSkin/issues).
 You can find the original creator here:[Twitter](https://twitter.com/ihellmasker) or here [Twitch Stream](https://twitch.tv/ihellmasker).
-
 Please don't message neither me nor him in-game.
-
 ---
 
 ## Contribution
-Pull requests from anyone else are currently not supported.
+Pull requests from anyone else are currently actively supported.
 
 ## Copyright notices
-
 Icons are taken from [here](https://ffxiv.gamerescape.com/wiki/Dictionary_of_Icons) & [here](https://github.com/skotlex/ffxiv-material-ui)
 
 Original creator: [Ihellmasker](https://github.com/Ihellmasker/FFXIVParserSkin)
