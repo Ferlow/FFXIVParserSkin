@@ -51,5 +51,5 @@ Icons are taken from [here](https://ffxiv.gamerescape.com/wiki/Dictionary_of_Ico
 
 Original creator: [Ihellmasker](https://github.com/Ihellmasker/FFXIVParserSkin)
 
-You can find the original creator here:[Twitter](https://twitter.com/ihellmasker) or here [Twitch Stream](https://twitch.tv/ihellmasker).
-Please don't message neither me nor him in-game.
+You can find the original creator on [Twitter](https://twitter.com/ihellmasker) or their [Twitch Stream](https://twitch.tv/ihellmasker).
+Please don't message neither me nor them in-game.
