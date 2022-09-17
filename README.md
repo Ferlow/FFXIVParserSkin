@@ -47,7 +47,7 @@ If you have any problems please create a [new issue ticket](https://github.com/F
 Pull requests from anyone else are currently actively supported.
 
 ## Copyright notices
-Icons are taken from [here](https://ffxiv.gamerescape.com/wiki/Dictionary_of_Icons) & [here](https://github.com/skotlex/ffxiv-material-ui)
+Icons are taken from [the FFXIV Gamerscape wiki](https://ffxiv.gamerescape.com/wiki/Dictionary_of_Icons) & [Skotlex's Material UI](https://github.com/skotlex/ffxiv-material-ui)
 
 Original creator: [Ihellmasker](https://github.com/Ihellmasker/FFXIVParserSkin)
 
