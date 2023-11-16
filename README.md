@@ -8,6 +8,7 @@ It offers two designs:
 
 ## Roadmap
 
+* Border around light theme [Version 1.5+]
 * Readme Cleanup [Version 1.5+]
 * Optimisations [Version 1.5+]
 * Fakedata cleanup [Version 1.5+]
