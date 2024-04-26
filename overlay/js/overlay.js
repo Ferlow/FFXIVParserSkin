@@ -150,3 +150,9 @@ function getParameterByName(name) {
     results = regex.exec(location.search);
     return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
+
+window.addEventListener('message', function(event) {
+    if (event.data === 'reload') {
+        location.reload();
+    }
+});

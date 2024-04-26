@@ -262,7 +262,11 @@ $("#apply-settings").on("click", function (e) {
     pSettings.save();
     if (typeof OverlayPluginApi !== "undefined") OverlayPluginApi.broadcastMessage('reload');
     location.reload();
+    if (window.opener) {
+        window.opener.postMessage('reload', '*');
+    }
 });
+
 $("#close-settings").on("click", function (e) {
     e.preventDefault();
     window.close();
